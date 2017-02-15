@@ -344,6 +344,11 @@ img {
 	vertical-align:top;
 	margin-bottom: 18px;
 }
+.menu-main-container li a img,
+.menu-footer-container li a img{
+    margin-bottom: 0;
+    vertical-align: inherit;
+}
 .entry-content img, .comment-content img {
 	max-width: 100%; /* Fluid images for posts, comments */
 }
@@ -849,11 +854,11 @@ li.default-menu {
 }
 #controllers a {
 	width: 18px;
-	height: 6px;
+	height: 18px;
 	margin: 0 4px;
 	overflow:hidden;
 	display:inline-block;
-	background-color: #FFFFFF;
+	background-color: #D5D5D5;
 	color: #FFFFFF;
 }
 #controllers a:hover, #controllers a.active {
@@ -1985,7 +1990,7 @@ a#scroll-up:hover {
 	#featured-slider .entry-content p { font-size: 10px; }
 	#featured-slider .slider-read-more-button { margin-top: 5px; font-size: 10px; padding: 3px 6px; padding: 0.3rem 0.6rem; }
 	#controllers { bottom: 5px; }
-	#controllers a { height: 4px; margin: 0 3px; width: 12px; }
+	#controllers a { height: 12px; margin: 0 3px; width: 12px; }
 	.gallery-columns-4 .gallery-item,
    .gallery-columns-5 .gallery-item,
    .gallery-columns-6 .gallery-item,
